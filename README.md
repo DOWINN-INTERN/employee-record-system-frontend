@@ -2,64 +2,65 @@
   <img src="./main/src/assets/logo.png" alt="Logo" style="width: 300px; height: auto; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">
 </div>
 
+<br>
+<br>
+<br>
 
+# Description
 
+<div style="display:flex; justify-content:center">
 
-## **Log-In & Sign-Up** 
-- pages Done (No Auhtn)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-## **Dashboard** 
-- wala pang design
+</div>
 
-## **Organization** 
-- All contents of filter ✅
-- Filter not functioning yet
-### Branches <br>
- -  Responsive ✅
- - Add Branch Post Request ✅
- - Refresh every time you enter a new branch✅
-- - Add Branch Modal esc keyboard function 
-#### Cloudflare Img Upload ✅
-#### Filter ✅
- #### Edit Branch
- - Responsive ✅
- - - Display chosen Picture not done
- - - Remove Image working but not (remove => pick => remove)
- - - Edit branch Modal esc keyboard function ✅
- - - Auto populate fields on edit button press is currently bugged, cant edit the image
- #### Status 
- - - Responsive ✅
- - - Patch request Done
- - - Dynamic text if (active | inactive) ✅
- - - Edit status Modal esc keyboard function ✅
-### Departments <br>
-- Add Department w/ refresh✅
-- - Higher Order ✅
-- - Add Department Modal esc keyboard function ✅
-- Edit Department
-- - The clicked branch should display at the dropdown ✅
-- - ~~Full of errors yet~~ 
-- - - ~~Bug: Returns empty even tho theres an input~~
-- - Not in higher order yet
-- - Done ✅
-- - - Edit department Modal esc keyboard function ✅
-- Edit Status
-- - Done ✅
-- - Not in higher order yet
-- - Responsive 
-- - Edit status Modal esc keyboard function ✅
-### Positions 
-- - Responsive ❌
-  
- 
-## **Employees**
-- - -  ~~Cards pa lang~~ 
-### Requirements <br>
-- Done 
-### View Employees 
-- - - ~~Cards~~
-#### Manage Employees ✅
--  Add Employee ✅
-- -  Same as Permanent addr btn bugged
-- -  Buttons not done (View, Status, Documents)
+**Cache Up** is a simple employee management system that provides broad monitoring capabilities, allowing users to track the employment status of employees across all departments and branches. It enables monitoring of departmental operations as well as the status and activities of existing branches.
 
+Additionally, the system facilitates efficient management of employee leave and absences, along with associated actions. Furthermore, it includes features for managing employee benefits and maintaining accurate records of employee documents, allowing for seamless updates with new and revised documents.
+
+This project is built using [**React**](https://reactjs.org/), [**TypeScript**](https://www.typescriptlang.org/), and [**Tailwind CSS**](https://tailwindcss.com/).
+
+<br>
+
+# Prerequisites
+
+1. Ensure you have Node.js and npm installed. You can download them from [Node.js](https://nodejs.org/).
+
+- - To test that you have Node.js and npm correctly installed on your machine, you can type node --version and npm --version in a terminal or command prompt.
+
+2. Install [React (Vite)](https://vitejs.dev/guide/)
+3. Add [Tailwind CSS](https://tailwindcss.com/docs/guides/vite) to your Project
+
+<br>
+
+# Module installation
+
+```bash
+# using npm:
+
+npm install
+```
+
+<br>
+
+# Running the app
+
+```bash
+# using npm (Vite):
+
+npm run dev
+```
+
+<br>
+
+# Documentation
+
+### <u>[System Documentation](https://docs.google.com/document/d/1rbER1dkJ3U0tZ286-xFqRDMMaCnPensxyryNm-GdKto/edit?usp=sharing)</u>
+
+<br>
+
+# Prototype
+
+### <u>[System Prototype](https://www.figma.com/design/J5LybgiS7tXDWHB21Wo0i1/Cache-Up?node-id=0-1&t=zAnuOnayQNbb7i37-0)
