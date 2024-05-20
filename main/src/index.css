@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+body {
+  font-family: "League Spartan", sans-serif;
+}
+
+.sidebar {
+  @apply flex items-center gap-2 font-semibold px-3 py-2 hover:bg-white hover:text-black hover:no-underline active:bg-white hover:rounded-xl text-2xl;
+}
+
+.custom-login-input {
+  @apply p-1 border border-gray-200 rounded-lg w-80;
+}
+
+.try {
+  @apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-0 transition duration-300 ease-in-out hover:opacity-70;
+}
+
+.parent-div {
+  @apply flex flex-col w-screen h-screen md:flex-row;
+}
+.red-div {
+  @apply h-auto bg-main border border-black md:w-1/4 flex items-center justify-center;
+}
+.white-div {
+  @apply flex-auto bg-white border-4 border-black md:w-2/3;
+}
+.logo-div {
+  @apply flex items-center justify-center;
+}
+.header-logo {
+  @apply flex items-center justify-center w-20 h-20 bg-white border rounded-full shadow-lg;
+}
+.login-option-button {
+  @apply absolute px-2 py-1 bg-white rounded-l-lg left-[-3px] border-l-2 border-y-2;
+}
+.radio-div {
+  @apply flex items-center gap-2 py-1 px-2 border-gray-300 border-[1px] rounded-md;
+}
+.border-gray-lg {
+  @apply border border-gray-200 rounded-lg;
+}
+.upload {
+  @apply absolute inset-0 flex items-center justify-center text-white transition-opacity duration-300 bg-black bg-opacity-50 rounded-lg opacity-0 hover:opacity-70;
+}
+.addBtn {
+  @apply flex items-center px-6 mt-6 ml-auto mr-10 transition duration-300 ease-in-out delay-150 border rounded-lg cursor-pointer bg-main h-11 hover:scale-110;
+}
+.modalDiv {
+  @apply fixed inset-0 z-50 flex items-center justify-center overflow-auto bg-gray-800 bg-opacity-50 animate-fade-in;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-in;
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-right {
+  animation: slide-in-right 0.3s ease-in-out forwards;
+}
