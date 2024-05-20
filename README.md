@@ -5,20 +5,20 @@
 
 
 
-## **Log-In & Sign-Up** 💯🥉
+## **Log-In & Sign-Up** 
 - pages Done (No Auhtn)
 
 ## **Dashboard** 
 - wala pang design
 
-## **Organization**💯🥉🥈 <br>
+## **Organization** 
 - All contents of filter ✅
 - Filter not functioning yet
 ### Branches <br>
  -  Responsive ✅
- - ~~Add Branch Post Request~~ <br>
- - ~~Refresh every time you enter a new branch~~
-- - Add Branch Modal esc keyboard function ✅
+ - Add Branch Post Request ✅
+ - Refresh every time you enter a new branch✅
+- - Add Branch Modal esc keyboard function 
 #### Cloudflare Img Upload ✅
 #### Filter ✅
  #### Edit Branch
@@ -38,7 +38,7 @@
 - - Add Department Modal esc keyboard function ✅
 - Edit Department
 - - The clicked branch should display at the dropdown ✅
-- - ~~Full of errors yet~~ ❌❌❌
+- - ~~Full of errors yet~~ 
 - - - ~~Bug: Returns empty even tho theres an input~~
 - - Not in higher order yet
 - - Done ✅
@@ -46,22 +46,20 @@
 - Edit Status
 - - Done ✅
 - - Not in higher order yet
-- - Responsive 🥉
+- - Responsive 
 - - Edit status Modal esc keyboard function ✅
-### Positions <br>
+### Positions 
 - - Responsive ❌
   
  
-## **Employees** <br>
+## **Employees**
 - - -  ~~Cards pa lang~~ 
 ### Requirements <br>
-- Done 💯
+- Done 
 ### View Employees 
 - - - ~~Cards~~
 #### Manage Employees ✅
 -  Add Employee ✅
 - -  Same as Permanent addr btn bugged
 - -  Buttons not done (View, Status, Documents)
-- - ~~Add employee Patch Request~~ (ano to??? kelan ko to ginawa hahahh)
-- - - Higher Order Not Done (?????? wtf)
 
