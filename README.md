@@ -64,3 +64,114 @@ npm run dev
 # Prototype
 
 ### <u>[System Prototype](https://www.figma.com/design/J5LybgiS7tXDWHB21Wo0i1/Cache-Up?node-id=0-1&t=zAnuOnayQNbb7i37-0)
+
+<br>
+
+# Endpoints
+
+```bash
+## AUTHENTICATION 
+
+SIGNUP
+POST: 10.10.10.10:3000/auth/signup
+> email
+> username
+> password
+> firstName
+> lastName
+> month
+> day
+> year
+> phone
+> sex
+
+LOGIN
+POST: 10.10.10.10:3000/auth/login
+> username
+> password
+
+REFRESH TOKEN
+POST: 10.10.10.10:3000/auth/refresh
+> refreshToken
+
+LOGOUT
+POST: 10.10.10.10:3000/auth/logout
+> accessToken
+
+
+## BRANCHES 
+
+GET BRANCH
+GET: 10.10.10.10:3000/branches
+
+ADD BRANCH
+POST: 10.10.10.10:3000/branches
+> file
+> name
+> address
+
+EDIT BRANCH
+PATCH: 10.10.10.10:3000/branches
+> bid (branch ID)
+> file
+> name
+> address
+
+STATUS BRANCH
+PATCH: 10.10.10.10:3000/branches
+> bid (branch ID)
+> status
+
+IMAGE BRANCH
+GET: 10.10.10.10:3000/branches/:balias/:bimage
+> alias
+> image
+
+
+## DEPARTMENT 
+
+GET DEPARTMENT
+GET: 10.10.10.10:3000/departments
+
+ADD DEPARTMENT
+POST: 10.10.10.10:3000/departments
+> bid (branch ID)
+> name
+> email
+> phone
+
+EDIT DEPARTMENT
+PATCH: 10.10.10.10:3000/departments
+> did (department ID)
+> bid (branch ID)
+> name
+> email
+> phone
+
+STATUS DEPARTMENT
+PATCH: 10.10.10.10:3000/departments
+> did (department ID)
+> status
+
+
+## POSITIONS 
+
+GET POSITIONS
+GET: 10.10.10.10:3000/positions
+
+GET DEPARTMENT POSITIONS
+GET: 10.10.10.10:3000/banch/:balias/department/:dalias/positions
+
+ADD POSITIONS
+POST: 10.10.10.10:3000/banch/:balias/department/:dalias/positions
+> did (department ID)
+> name
+> hierarchy
+
+EDIT POSITIONS
+PATCH: 10.10.10.10:3000/banch/:balias/department/:dalias/positions
+> pid (position ID)
+> did (department ID)
+> name
+> hierarchy
+```
