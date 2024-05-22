@@ -67,6 +67,12 @@ npm run dev
 
 <br>
 
+# Features
+
+### <u>[Features](https://docs.google.com/document/d/1K1-y5d7eg_HSudg0lTEv3zfAMzH2EaH1TP90oEzNtXc/edit?usp=sharing)</u>
+
+<br>
+
 # Endpoints
 
 ```bash
