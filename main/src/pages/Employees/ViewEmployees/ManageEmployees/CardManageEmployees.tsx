@@ -1,6 +1,6 @@
 import { MdEmail, MdPhone } from "react-icons/md";
 import CardManageEmployeeButton from "./CardManageEmployeeButton";
-import akoto from "../../../../assets/akoto.png";
+import defaultImage from "../../../../assets/emp.png"
 
 interface ManageEmployees {
   id: number;
@@ -26,7 +26,7 @@ function CardManageEmployees({ employees, color }: ManageEmployeesProps) {
       className={`flex w-full p-4 gap-10 border shadow-md rounded-2xl h-fit max-h-52  md:flex-col lg:flex-row sm:flex-col hover:shadow-lg ${color}`}
     >
       <div className="mx-auto mt-6 bg-cover rounded-full md:min-w-28 md:max-w-32 md:max-h-32 ">
-        <img src={akoto} className="rounded-full" />
+        <img src={defaultImage} className="rounded-full" />
       </div>
 
       <div className="flex flex-col justify-between ml-4 gap-y-8">
